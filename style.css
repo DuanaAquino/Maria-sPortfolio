@@ -1,0 +1,14 @@
+body {
+    margin: 0px 160px 0px 160px;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+}
+header ul {
+    list-style-type: none;
+}
+header li{
+    display: inline-block;
+}
