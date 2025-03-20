@@ -4,20 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Maria | Portfolio</title>
 </head>
 <body>
     <header>
         <div>
-            <h2 id="menuTitle">Portfolio</h2>
+            <h3 id="menuTitle">Portfolio</h3>
         </div>
-        <div>
-            <ul id="menu">
-                <li>Meus Serviços</li>
-                <li>Fale comigo</li>
-                <li>Portfolio</li>
+        <div id="menu">
+            <ul>
+                <li><a href="#services">My Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
             </ul>
         </div>
     </header>
+    <div class="container" id="presenting">
+        <div>
+            <h1>Hello, my name<br>
+            is Maria</h1>
+            <p>I am a programmer and would like to present my<br>
+                work to you through this portfolio.</p>
+            <button>My Services</button>
+        </div>
+        <div>
+            <img src="img/Maria.svg" alt="error">
+        </div>
+    </div>
+    <div class="container" id="clients">
+        <p>Some of<br>
+            my clients</p>
+        <img src="img/apple.svg" alt="error">
+        <img src="img/slack.svg" alt="error">
+        <img src="img/spotify.svg" alt="error">
+    </div>
+    <div class="container" id="servicesTitle">
+        <h4>Discover</h4>
+        <h2>My Services</h2>
+        <p>I will help your company<br> 
+            achieve great results.</p>
+    </div>
+    <div class="container" id="services">
+        <div id="consulting">
+            <img src="img/bag.svg" alt="error">
+            <h3>Consulting</h3>
+            <p>I help you organize your company<br>
+                and improve your results.</p>    
+        </div>
+        <div id="marketing">
+            <img src="img/mail.svg" alt="error">
+            <h3>Email Marketing</h3>
+            <p>Managing campaigns is hard.<br>
+                Count on me to help you.</p>
+        </div>
+        <div id="webCreation">
+            <img src="img/web.svg" alt="error">
+            <h3>Website Creation</h3>
+            <p>I develop your entire website from<br>
+               scratch and deliver it to you ready to go.</p>
+        </div>
+    </div>
 </body>
 </html>
